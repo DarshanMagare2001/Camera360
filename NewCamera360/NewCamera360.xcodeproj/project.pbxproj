@@ -56,15 +56,95 @@
 		13AD45B42AA7258C00473A36 /* NewCamera360 */ = {
 			isa = PBXGroup;
 			children = (
-				13AD45B52AA7258C00473A36 /* AppDelegate.swift */,
-				13AD45B72AA7258C00473A36 /* SceneDelegate.swift */,
-				13AD45B92AA7258C00473A36 /* ViewController.swift */,
-				13AD45BB2AA7258C00473A36 /* Main.storyboard */,
-				13AD45BE2AA7258E00473A36 /* Assets.xcassets */,
-				13AD45C02AA7258E00473A36 /* LaunchScreen.storyboard */,
+				13AD45C92AA725C800473A36 /* AppDelegate */,
+				13AD45CA2AA7260000473A36 /* Storyboard */,
+				13AD45CC2AA7262800473A36 /* Components */,
+				13AD45CB2AA7261900473A36 /* Resources */,
 				13AD45C32AA7258E00473A36 /* Info.plist */,
 			);
 			path = NewCamera360;
+			sourceTree = "<group>";
+		};
+		13AD45C92AA725C800473A36 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				13AD45B52AA7258C00473A36 /* AppDelegate.swift */,
+				13AD45B72AA7258C00473A36 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		13AD45CA2AA7260000473A36 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				13AD45C02AA7258E00473A36 /* LaunchScreen.storyboard */,
+				13AD45BB2AA7258C00473A36 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		13AD45CB2AA7261900473A36 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13AD45BE2AA7258E00473A36 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		13AD45CC2AA7262800473A36 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				13AD45CD2AA7264400473A36 /* CapturePanorama */,
+				13AD45CE2AA7267F00473A36 /* ThreeSixtyView */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		13AD45CD2AA7264400473A36 /* CapturePanorama */ = {
+			isa = PBXGroup;
+			children = (
+				13AD45CF2AA726B300473A36 /* View */,
+				13AD45D02AA726B800473A36 /* ViewModel */,
+			);
+			path = CapturePanorama;
+			sourceTree = "<group>";
+		};
+		13AD45CE2AA7267F00473A36 /* ThreeSixtyView */ = {
+			isa = PBXGroup;
+			children = (
+				13AD45D22AA726CE00473A36 /* View */,
+				13AD45D12AA726C600473A36 /* ViewModel */,
+			);
+			path = ThreeSixtyView;
+			sourceTree = "<group>";
+		};
+		13AD45CF2AA726B300473A36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				13AD45B92AA7258C00473A36 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		13AD45D02AA726B800473A36 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		13AD45D12AA726C600473A36 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		13AD45D22AA726CE00473A36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
