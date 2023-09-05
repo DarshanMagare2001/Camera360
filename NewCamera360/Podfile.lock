@@ -1,0 +1,20 @@
+PODS:
+  - CTPanoramaView (1.5)
+  - Image360 (1.1.5)
+
+DEPENDENCIES:
+  - CTPanoramaView (~> 1.5)
+  - Image360 (~> 1.1.5)
+
+SPEC REPOS:
+  trunk:
+    - CTPanoramaView
+    - Image360
+
+SPEC CHECKSUMS:
+  CTPanoramaView: f7af526aaffedb2d52e87112ee0d57bb115eb6a2
+  Image360: 0704fcf1ec5ad8625ef8afbca8b1e89c331fa671
+
+PODFILE CHECKSUM: 9df16e93828a9f35685988b8e49a3307741fba09
+
+COCOAPODS: 1.11.2
